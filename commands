@@ -1,0 +1,4 @@
+export CPATH=/opt/homebrew/include
+export LIBRARY_PATH=/opt/homebrew/lib
+
+g++ -o main main.cpp ImageResizer.cpp -I/opt/homebrew/opt/ffmpeg/include -L/opt/homebrew/opt/ffmpeg/lib -lavformat -lavcodec -lavutil -lswscale -std=c++11

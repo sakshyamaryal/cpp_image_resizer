@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include", // Adjust this path if FFmpeg is installed elsewhere
+                "/usr/local/include/libavformat",
+                "/usr/local/include/libavcodec",
+                "/usr/local/include/libswscale",
+                "/usr/local/include/libavutil"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-x64"
+        }
+    ],
+    "version": 4
+}
