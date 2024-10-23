@@ -27,6 +27,7 @@ A command-line tool for resizing images using FFmpeg libraries.
 
 # Usage
 #  Run the program:
+* ./resize_image input_filepath output_filepath -- dummy example
 * ./resize_image input.jpg output.jpg
 
 # Enter the desired size (small, medium, large):
