@@ -34,9 +34,20 @@ A command-line tool for resizing images using FFmpeg libraries.
 * Enter desired size (small, medium, large): small
 
 # complete example of running the program:
-   (base) mac@Sakshyam cpp % ./resize_image input.jpg output.jpg
+   (base) mac@Sakshyam Task1 % ./resize_image input.jpg output.jpg
     ''' Enter desired size (small, medium, large): small
     [swscaler @ 0x118008000] deprecated pixel format used, make sure you did set range correctly
     [swscaler @ 0x108018000] deprecated pixel format used, make sure you did set range correctly
     Created small version
     Resized version created successfully ''''
+
+# Task 2
+
+* ./task2 input_filepath output_filepath -- dummy example
+* ./task2 input.mp4 output.mp4
+
+# Compile the program:
+* g++ -std=c++11 task2.cpp FFmpegResizer.cpp -o convert_video `pkg-config --cflags --libs libavformat libavcodec libswscale libavutil` -lavcodec -lavformat -lavutil -lswscale
+
+# Run the program:
+* ./convert_video video.webm    
