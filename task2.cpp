@@ -1,3 +1,11 @@
+/** 
+ * program that converts any video file into mp4 format using libav library and extract thumbnail.
+ * Use the Library you’ve created from TASK 1 to resize the the thumbnail into 3 different sizes
+ * Expectation:
+ * $ ./converter video.webm should generate:
+ * converted_video.mp4, thumbail_small.jpg, thumbnail_medium.jpg, thumbnail_large.jpg
+*/
+
 #include <iostream>
 #include <stdexcept>
 #include <memory>

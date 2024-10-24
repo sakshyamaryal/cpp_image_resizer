@@ -50,4 +50,4 @@ A command-line tool for resizing images using FFmpeg libraries.
 * g++ -std=c++11 task2.cpp FFmpegResizer.cpp -o convert_video `pkg-config --cflags --libs libavformat libavcodec libswscale libavutil` -lavcodec -lavformat -lavutil -lswscale
 
 # Run the program:
-* ./convert_video video.webm    
+* ./convert_video video.webm

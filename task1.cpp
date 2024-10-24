@@ -1,3 +1,12 @@
+/** 
+ * C++ library to resize image files preserving the aspect ratio using libav c library.
+ * SMALL_WIDTH = 250;
+ * MEDIUM_WIDTH = 350;
+ * LARGE_WIDTH = 650;
+ * Expectation:
+ * A C++ library that exposes functions to resize any image to given width preserving the aspect ratio.
+ * */ 
+
 #include <iostream>
 #include <stdexcept>
 #include <memory>
