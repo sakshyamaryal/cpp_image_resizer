@@ -1,4 +1,4 @@
-# Image Resizer
+# Image Resizer and Video Converter
 
 A command-line tool for resizing images using FFmpeg libraries.
 
@@ -7,7 +7,6 @@ A command-line tool for resizing images using FFmpeg libraries.
 * [Prerequisites](#prerequisites)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Example](#example)
 
 ## Prerequisites
 
@@ -27,7 +26,6 @@ A command-line tool for resizing images using FFmpeg libraries.
 
 # Usage
 #  Run the program:
-* 
 * ./resize_image input.jpg output.jpg
 
 # Enter the desired size (small, medium, large):
@@ -42,7 +40,6 @@ A command-line tool for resizing images using FFmpeg libraries.
     Resized version created successfully ''''
 
 # Task 2
-
 
 # Compile the program:
 * g++ -std=c++11 task2.cpp FFmpegResizer.cpp -o convert_video `pkg-config --cflags --libs libavformat libavcodec libswscale libavutil` -lavcodec -lavformat -lavutil -lswscale

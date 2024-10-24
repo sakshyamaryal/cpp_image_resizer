@@ -162,7 +162,6 @@ public:
                         throw std::runtime_error("Error while decoding");
                     }
 
-                    // We have a valid video frame, let's save it as a thumbnail
                     swsContext = sws_getContext(
                         codecContext->width, codecContext->height, codecContext->pix_fmt,
                         codecContext->width, codecContext->height, AV_PIX_FMT_RGB24,
